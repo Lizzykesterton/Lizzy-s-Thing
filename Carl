@@ -1,0 +1,172 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://7d7a722b-ad70-46c6-a991-ddeed41f9a92",
+	"@type": "sc:Manifest",
+	"label": "Funky Manuscript ",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "Whoop",
+	"attribution": "Eagle ",
+	"sequences": [
+		{
+			"@id": "http://767a7792-9be5-421d-8565-a649d7c62ea4",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-7",
+					"@type": "sc:Canvas",
+					"label": "p. 245",
+					"height": 8897,
+					"width": 6742,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/imageanno/anno-7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710/197B_245_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 8897,
+								"width": 6742,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710%252F197B_245_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-7"
+						}
+					],
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/list/245.json"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 197B: The Northumbrian Gospels",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/wp146tq7625/canvas/canvas-8",
+					"@type": "sc:Canvas",
+					"label": "f. 1v",
+					"height": 7496,
+					"width": 5492,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/wp146tq7625/imageanno/anno-8",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/wp146tq7625/173_001_V_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 7496,
+								"width": 5492,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/wp146tq7625%252F173_001_V_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/wp146tq7625/canvas/canvas-8"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/wp146tq7625/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 173: The Parker Chronicle",
+						"format": ""
+					}
+				},
+				{
+					"@id": "http://4f544a24-f7cb-43ca-a085-ad150ae47973",
+					"@type": "sc:Canvas",
+					"label": "f. 1v",
+					"height": 7496,
+					"width": 5492,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/wp146tq7625/imageanno/anno-8",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/wp146tq7625/173_001_V_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 7496,
+								"width": 5492,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/wp146tq7625%252F173_001_V_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "http://4f544a24-f7cb-43ca-a085-ad150ae47973"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/wp146tq7625/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 173: The Parker Chronicle",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-9",
+					"@type": "sc:Canvas",
+					"label": "p. 247",
+					"height": 8986,
+					"width": 6686,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/imageanno/anno-9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710/197B_247_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 8986,
+								"width": 6686,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710%252F197B_247_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-9"
+						}
+					],
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/list/247.json"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 197B: The Northumbrian Gospels",
+						"format": ""
+					}
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "Left to Right ",
+	"logo": "North Face"
+}
